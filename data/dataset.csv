@@ -1,0 +1,7 @@
+question,query_id
+"Vrat zoznam datasetov kde datum vytvorenia je vacsi ako 14.6.2010",q1
+"datasety od 14.6.2010",q1
+"chcem datasety po 14.6.2010",q1
+"Vrat zoznam datasetov kde datum vytvorenia je mensi ako 1.1.2020",q2
+"datasety do 1.1.2020",q2
+"chcem datasety pred 1.1.2020",q2
