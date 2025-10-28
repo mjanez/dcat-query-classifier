@@ -1,0 +1,97 @@
+[project]
+name = "sparql-humanize"
+version = "0.1.0"
+description = "A machine learning system that classifies natural language questions into predefined SPARQL queries for DCAT datasets"
+authors = [
+    {name = "mjanez", email = "mjanez@example.com"},
+]
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+license = {text = "MIT"}
+keywords = ["sparql", "nlp", "machine-learning", "dcat", "classification"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "numpy>=1.21.0",
+    "pandas>=1.3.0",
+    "scikit-learn>=1.0.0",
+    "pyyaml>=6.0",
+    "click>=8.0.0",
+    "babel>=2.9.0",
+    "nltk>=3.7",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.11.0",
+    "joblib>=1.0.0",
+]
+
+[project.scripts]
+sparql-humanize-train = "sparql_humanize.cli:train"
+sparql-humanize-predict = "sparql_humanize.cli:predict"
+
+[project.urls]
+Homepage = "https://github.com/mjanez/sparql-humanize"
+Repository = "https://github.com/mjanez/sparql-humanize"
+"Bug Tracker" = "https://github.com/mjanez/sparql-humanize/issues"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "mypy>=1.0.0",
+    "isort>=5.12.0",
+    "ruff>=0.1.0",
+]
+
+[tool.black]
+line-length = 100
+target-version = ['py39', 'py310', 'py311', 'py312']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 100
+skip_gitignore = true
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "--cov=sparql_humanize --cov-report=term-missing --cov-report=html"

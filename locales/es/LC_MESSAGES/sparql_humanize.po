@@ -1,0 +1,104 @@
+# Spanish translations for SPARQL Humanize
+# Copyright (C) 2025 mjanez
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"POT-Creation-Date: 2025-10-15 12:00+0000\n"
+"PO-Revision-Date: 2025-10-15 12:00+0000\n"
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Common messages
+msgid "Loading data"
+msgstr "Cargando datos"
+
+msgid "Data loaded successfully"
+msgstr "Datos cargados exitosamente"
+
+msgid "Preprocessing data"
+msgstr "Preprocesando datos"
+
+msgid "Data preprocessed successfully"
+msgstr "Datos preprocesados exitosamente"
+
+msgid "Building model"
+msgstr "Construyendo modelo"
+
+msgid "Model built successfully"
+msgstr "Modelo construido exitosamente"
+
+msgid "Training model"
+msgstr "Entrenando modelo"
+
+msgid "Model trained successfully"
+msgstr "Modelo entrenado exitosamente"
+
+msgid "Model saved"
+msgstr "Modelo guardado"
+
+msgid "Loading model"
+msgstr "Cargando modelo"
+
+msgid "Model loaded successfully"
+msgstr "Modelo cargado exitosamente"
+
+msgid "Making prediction"
+msgstr "Realizando predicción"
+
+msgid "Prediction completed"
+msgstr "Predicción completada"
+
+# Error messages
+msgid "Error loading data"
+msgstr "Error al cargar datos"
+
+msgid "Error preprocessing data"
+msgstr "Error al preprocesar datos"
+
+msgid "Error building model"
+msgstr "Error al construir modelo"
+
+msgid "Error training model"
+msgstr "Error al entrenar modelo"
+
+msgid "Error saving model"
+msgstr "Error al guardar modelo"
+
+msgid "Error loading model"
+msgstr "Error al cargar modelo"
+
+msgid "Error making prediction"
+msgstr "Error al realizar predicción"
+
+msgid "File not found"
+msgstr "Archivo no encontrado"
+
+msgid "Invalid configuration"
+msgstr "Configuración inválida"
+
+# Training messages
+msgid "Starting training process"
+msgstr "Iniciando proceso de entrenamiento"
+
+msgid "Epoch"
+msgstr "Época"
+
+msgid "Training accuracy"
+msgstr "Precisión de entrenamiento"
+
+msgid "Validation accuracy"
+msgstr "Precisión de validación"
+
+msgid "Early stopping triggered"
+msgstr "Parada temprana activada"
+
+# Prediction messages
+msgid "Predicted SPARQL query ID"
+msgstr "ID de consulta SPARQL predicho"
+
+msgid "Confidence score"
+msgstr "Puntuación de confianza"
+
+msgid "Processing question"
+msgstr "Procesando pregunta"

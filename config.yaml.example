@@ -1,0 +1,102 @@
+# Application Configuration
+app:
+  name: "SPARQL Humanize"
+  version: "0.1.0"
+  environment: "development"
+
+# Model Configuration
+model:
+  type: "logistic_regression"  # Options: logistic_regression, svm, random_forest, naive_bayes
+  random_state: 42
+  max_features: 5000
+  
+  # Logistic Regression parameters
+  logistic_regression:
+    max_iter: 1000
+    C: 1.0
+  
+  # SVM parameters
+  svm:
+    kernel: "linear"
+    C: 1.0
+  
+  # Random Forest parameters
+  random_forest:
+    n_estimators: 100
+    max_depth: null
+  
+  # Naive Bayes parameters
+  naive_bayes:
+    alpha: 1.0
+  
+  paths:
+    model_dir: "models"
+    model_file: "sparql_classifier.pkl"
+    vectorizer_file: "vectorizer.pkl"
+    label_encoder_file: "label_encoder.pkl"
+
+# Data Configuration
+data:
+  dataset_path: "data/dataset.csv"
+  question_column: "question"
+  query_type_column: "query_id"
+  test_size: 0.2
+  random_state: 42
+
+# Preprocessing Configuration
+preprocessing:
+  vectorizer:
+    max_features: 5000
+    ngram_range: [1, 2]  # unigrams and bigrams
+    min_df: 1
+    max_df: 1.0
+  
+  text_cleaning:
+    lowercase: true
+    remove_punctuation: true
+    remove_stopwords: false
+
+# Logging Configuration
+logging:
+  version: 1
+  disable_existing_loggers: false
+  
+  formatters:
+    standard:
+      format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+      datefmt: "%Y-%m-%d %H:%M:%S"
+    detailed:
+      format: "%(asctime)s - %(name)s - %(levelname)s - %(funcName)s:%(lineno)d - %(message)s"
+      datefmt: "%Y-%m-%d %H:%M:%S"
+  
+  handlers:
+    console:
+      class: "logging.StreamHandler"
+      level: "INFO"
+      formatter: "standard"
+      stream: "ext://sys.stdout"
+    
+    file:
+      class: "logging.handlers.RotatingFileHandler"
+      level: "DEBUG"
+      formatter: "detailed"
+      filename: "logs/sparql_humanize.log"
+      maxBytes: 10485760  # 10MB
+      backupCount: 5
+      encoding: "utf8"
+  
+  root:
+    level: "INFO"
+    handlers: ["console", "file"]
+  
+  loggers:
+    sparql_humanize:
+      level: "DEBUG"
+      handlers: ["console", "file"]
+      propagate: false
+
+# Internationalization Configuration
+i18n:
+  default_locale: "en"
+  supported_locales: ["en", "es"]
+  translations_dir: "locales"
