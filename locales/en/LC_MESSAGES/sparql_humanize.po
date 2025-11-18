@@ -1,0 +1,104 @@
+# English translations for SPARQL Humanize
+# Copyright (C) 2025 mjanez
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"POT-Creation-Date: 2025-10-15 12:00+0000\n"
+"PO-Revision-Date: 2025-10-15 12:00+0000\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Common messages
+msgid "Loading data"
+msgstr "Loading data"
+
+msgid "Data loaded successfully"
+msgstr "Data loaded successfully"
+
+msgid "Preprocessing data"
+msgstr "Preprocessing data"
+
+msgid "Data preprocessed successfully"
+msgstr "Data preprocessed successfully"
+
+msgid "Building model"
+msgstr "Building model"
+
+msgid "Model built successfully"
+msgstr "Model built successfully"
+
+msgid "Training model"
+msgstr "Training model"
+
+msgid "Model trained successfully"
+msgstr "Model trained successfully"
+
+msgid "Model saved"
+msgstr "Model saved"
+
+msgid "Loading model"
+msgstr "Loading model"
+
+msgid "Model loaded successfully"
+msgstr "Model loaded successfully"
+
+msgid "Making prediction"
+msgstr "Making prediction"
+
+msgid "Prediction completed"
+msgstr "Prediction completed"
+
+# Error messages
+msgid "Error loading data"
+msgstr "Error loading data"
+
+msgid "Error preprocessing data"
+msgstr "Error preprocessing data"
+
+msgid "Error building model"
+msgstr "Error building model"
+
+msgid "Error training model"
+msgstr "Error training model"
+
+msgid "Error saving model"
+msgstr "Error saving model"
+
+msgid "Error loading model"
+msgstr "Error loading model"
+
+msgid "Error making prediction"
+msgstr "Error making prediction"
+
+msgid "File not found"
+msgstr "File not found"
+
+msgid "Invalid configuration"
+msgstr "Invalid configuration"
+
+# Training messages
+msgid "Starting training process"
+msgstr "Starting training process"
+
+msgid "Epoch"
+msgstr "Epoch"
+
+msgid "Training accuracy"
+msgstr "Training accuracy"
+
+msgid "Validation accuracy"
+msgstr "Validation accuracy"
+
+msgid "Early stopping triggered"
+msgstr "Early stopping triggered"
+
+# Prediction messages
+msgid "Predicted SPARQL query ID"
+msgstr "Predicted SPARQL query ID"
+
+msgid "Confidence score"
+msgstr "Confidence score"
+
+msgid "Processing question"
+msgstr "Processing question"

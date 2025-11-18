@@ -1,0 +1,183 @@
+question,query_type
+"What datasets are available?",list_datasets
+"Show me all datasets",list_datasets
+"List all available datasets",list_datasets
+"Give me all the datasets",list_datasets
+"I want to see all datasets",list_datasets
+"Display all datasets",list_datasets
+"¿Qué conjuntos de datos hay?",list_datasets
+"Muéstrame todos los conjuntos de datos",list_datasets
+"Listar todos los datasets",list_datasets
+"Quiero ver todos los datasets",list_datasets
+"Enseña todos los datasets",list_datasets
+"Dame la lista de datasets",list_datasets
+"Show datasets about health",search_datasets
+"Find datasets related to education",search_datasets
+"Search for environment datasets",search_datasets
+"Datasets about transport",search_datasets
+"I need data on economy",search_datasets
+"Look for climate change datasets",search_datasets
+"Search datasets with keyword pollution",search_datasets
+"Muéstrame datasets sobre salud",search_datasets
+"Buscar datasets de educación",search_datasets
+"Quiero datos de medio ambiente",search_datasets
+"Datos sobre transporte",search_datasets
+"Necesito datos de economía",search_datasets
+"Busca datasets de cambio climático",search_datasets
+"Datasets con palabra clave contaminación",search_datasets
+"Datasets in CSV format",get_distribution
+"Show me JSON datasets",get_distribution
+"Which datasets are available in Excel?",get_distribution
+"I need data in XML format",get_distribution
+"Give me datasets in RDF format",get_distribution
+"What formats are available?",get_distribution
+"List all available formats",get_distribution
+"¿Qué datasets hay en formato CSV?",get_distribution
+"Muéstrame datasets en JSON",get_distribution
+"¿Qué datasets están en Excel?",get_distribution
+"Necesito datos en XML",get_distribution
+"Quiero datasets en RDF",get_distribution
+"¿Qué formatos existen?",get_distribution
+"Listar todos los formatos disponibles",get_distribution
+"Tell me about the dataset transportation",get_metadata
+"What is the description of health dataset?",get_metadata
+"When was this dataset created?",get_metadata
+"Who published the education dataset?",get_metadata
+"Show metadata for climate dataset",get_metadata
+"Describe the economy dataset",get_metadata
+"What are the properties of this dataset?",get_metadata
+"Háblame del dataset de transporte",get_metadata
+"¿Cuál es la descripción del dataset de salud?",get_metadata
+"¿Cuándo se creó este dataset?",get_metadata
+"¿Quién publicó el dataset de educación?",get_metadata
+"Mostrar metadatos del dataset de clima",get_metadata
+"Describe el dataset de economía",get_metadata
+"¿Qué propiedades tiene este dataset?",get_metadata
+"Datasets created after 2020",filter_datasets
+"Show recent datasets",filter_datasets
+"Datasets from last year",filter_datasets
+"Give me datasets before 2015",filter_datasets
+"Data updated in 2023",filter_datasets
+"Newest datasets available",filter_datasets
+"Filter datasets by date",filter_datasets
+"Datasets publicados después de 2020",filter_datasets
+"Enseña los datasets más recientes",filter_datasets
+"Datasets del año pasado",filter_datasets
+"Dame datasets anteriores a 2015",filter_datasets
+"Datos actualizados en 2023",filter_datasets
+"Datasets más nuevos disponibles",filter_datasets
+"Filtrar datasets por fecha",filter_datasets
+"How many datasets do we have?",get_statistics
+"Count total datasets",get_statistics
+"Number of available datasets",get_statistics
+"Statistics about datasets",get_statistics
+"Show dataset count by theme",get_statistics
+"How many CSV datasets are there?",get_statistics
+"Total number of distributions",get_statistics
+"¿Cuántos datasets hay?",get_statistics
+"Contar el total de datasets",get_statistics
+"Número de datasets disponibles",get_statistics
+"Estadísticas sobre los datasets",get_statistics
+"Mostrar número de datasets por tema",get_statistics
+"¿Cuántos datasets CSV existen?",get_statistics
+"Número total de distribuciones",get_statistics
+"List all named graphs",list_graphs
+"Show all available graphs",list_graphs
+"What graphs are in the catalog?",list_graphs
+"Display all graphs",list_graphs
+"Query available graphs",list_graphs
+"¿Cuáles son los grafos disponibles?",list_graphs
+"Listar todos los grafos",list_graphs
+"Mostrar grafos del catálogo",list_graphs
+"¿Qué grafos hay en el catálogo?",list_graphs
+"Consultar grafos disponibles",list_graphs
+"Show all data services",list_services
+"List all data services",list_services
+"What data services are available?",list_services
+"Display all DataServices",list_services
+"Query all services",list_services
+"¿Qué servicios de datos hay?",list_services
+"Listar todos los servicios de datos",list_services
+"Mostrar servicios de datos",list_services
+"Servicios de datos disponibles",list_services
+"Consultar todos los servicios",list_services
+"List all publishers",list_publishers
+"Show all dataset publishers",list_publishers
+"Who publishes datasets?",list_publishers
+"What organizations publish data?",list_publishers
+"Display all publishers",list_publishers
+"¿Quién publica datasets?",list_publishers
+"Listar todos los publicadores",list_publishers
+"Mostrar organismos publicadores",list_publishers
+"Organismos que publican datos",list_publishers
+"¿Qué organizaciones publican datos?",list_publishers
+"List all dataset properties",list_properties
+"Show all properties of datasets",list_properties
+"What properties do datasets have?",list_properties
+"Display dataset properties",list_properties
+"Query dataset attributes",list_properties
+"¿Qué propiedades tienen los datasets?",list_properties
+"Listar propiedades de los datasets",list_properties
+"Mostrar todas las propiedades de los datasets",list_properties
+"Propiedades de los datasets",list_properties
+"Consultar atributos de datasets",list_properties
+"List all classes in the catalog",list_classes
+"Show all entity types",list_classes
+"What types are available?",list_classes
+"Display all classes",list_classes
+"¿Qué clases hay en el catálogo?",list_classes
+"Listar todas las clases",list_classes
+"Mostrar todos los tipos de entidad",list_classes
+"¿Qué tipos están disponibles?",list_classes
+"Show properties of publishers",list_publisher_properties
+"What properties do publishers have?",list_publisher_properties
+"List publisher attributes",list_publisher_properties
+"Display publisher properties",list_publisher_properties
+"¿Qué propiedades tienen los publicadores?",list_publisher_properties
+"Mostrar propiedades de organismos",list_publisher_properties
+"Listar atributos de publicadores",list_publisher_properties
+"Propiedades de los organismos",list_publisher_properties
+"Show properties of data services",list_service_properties
+"What properties do data services have?",list_service_properties
+"List data service attributes",list_service_properties
+"¿Qué propiedades tienen los servicios de datos?",list_service_properties
+"Mostrar propiedades de servicios",list_service_properties
+"Listar atributos de servicios de datos",list_service_properties
+"Top 10 publishers by dataset count",rank_publishers
+"Which organizations publish the most datasets?",rank_publishers
+"Ranking of publishers by number of datasets",rank_publishers
+"Show top publishers",rank_publishers
+"¿Qué organismos publican más datasets?",rank_publishers
+"Top 10 organismos por número de datasets",rank_publishers
+"Ranking de publicadores",rank_publishers
+"Mostrar principales publicadores",rank_publishers
+"Top publishers by data services count",rank_publishers_services
+"Which organizations have the most data services?",rank_publishers_services
+"Ranking of publishers by services",rank_publishers_services
+"¿Qué organismos tienen más servicios de datos?",rank_publishers_services
+"Top organismos por servicios de datos",rank_publishers_services
+"Ranking de publicadores por servicios",rank_publishers_services
+"Combined ranking of publishers",rank_publishers_combined
+"Total datasets and services by publisher",rank_publishers_combined
+"Show publishers with most resources",rank_publishers_combined
+"Ranking combinado de publicadores",rank_publishers_combined
+"Datasets y servicios totales por organismo",rank_publishers_combined
+"Mostrar organismos con más recursos",rank_publishers_combined
+"Count datasets by graph",count_by_graph
+"Statistics by named graph",count_by_graph
+"Number of resources per graph",count_by_graph
+"Contar datasets por grafo",count_by_graph
+"Estadísticas por grafo",count_by_graph
+"Número de recursos por grafo",count_by_graph
+"Show datasets in specific graph",filter_by_graph
+"Query datasets from catalog graph",filter_by_graph
+"Filter by named graph",filter_by_graph
+"Mostrar datasets en grafo específico",filter_by_graph
+"Consultar datasets del grafo catálogo",filter_by_graph
+"Filtrar por grafo",filter_by_graph
+"Publishers with Spanish names",filter_publishers_language
+"Show publishers in Spanish",filter_publishers_language
+"List Spanish-language publishers",filter_publishers_language
+"Publicadores con nombres en español",filter_publishers_language
+"Mostrar publicadores en español",filter_publishers_language
+"Listar organismos en español",filter_publishers_language
